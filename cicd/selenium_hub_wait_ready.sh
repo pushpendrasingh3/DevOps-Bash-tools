@@ -21,8 +21,8 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 #./../lib/utils.sh
 #ls -la DevOps-Bash-tools
 pwd
-echo "./DevOps-Bash-tools/lib/utils.sh"
-./DevOps-Bash-tools/lib/utils.sh
+echo "/bin/sh DevOps-Bash-tools/lib/utils.sh"
+/bin/sh DevOps-Bash-tools/lib/utils.sh
 # shellcheck disable=SC2034,SC2154
 usage_description="
 Waits for Selenium Grid Hub status to be ready
