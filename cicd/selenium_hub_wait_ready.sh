@@ -20,7 +20,7 @@ srcdir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 # shellcheck disable=SC1090,SC1091
 #. "$srcdir/lib/utils.sh"
 #./../lib/utils.sh
-ls -la
+ls -la DevOps-Bash-tools
 pwd
 ./DevOps-Bash-tools/lib/utils.sh
 # shellcheck disable=SC2034,SC2154
